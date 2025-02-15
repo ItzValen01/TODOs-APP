@@ -18,7 +18,7 @@ Actualmente esta abandonado, y contiene varios errores y no esta completo.
 ---
 
 ## 📂 Estructura del Proyecto  
-📁 TODOs APP
+📁 TODOs APP <br>
 │── 📁 backend # Lógica del servidor y base de datos <br>
 │── 📁 frontend # Interfaz de usuario y lógica del cliente <br>
 
