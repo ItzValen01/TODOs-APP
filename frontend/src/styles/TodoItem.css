@@ -1,0 +1,53 @@
+.item {  
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;   
+    align-items: center;
+
+    cursor: context-menu;
+
+    background: #e6e5e5;
+    border-radius: 15px;
+    height: 97px;
+
+    margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+
+    transition: all 0.3s;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.status {
+    padding-left: 20px;
+}
+
+.item:hover {
+    background: #cfcdcd;
+}
+
+.active {
+    background: #adacac;
+}
+
+.active:hover {
+    background: #858484;
+}
+
+.content {
+    width: 80%;
+    height: 80%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-wrap: balance;
+    text-align: center;
+}
+
+.content-activated {
+    text-decoration: line-through;
+}

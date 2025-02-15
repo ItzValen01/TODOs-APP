@@ -1,0 +1,42 @@
+.setting-btn {
+    background: rgb(139, 136, 136);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    cursor: pointer;
+    z-index: 2;
+
+    transition: all 0.3s;
+}
+
+.setting-btn:hover {
+    background: rgb(100, 99, 99);
+}
+
+.setting-btn svg {
+    height: 70%;
+
+    transition: all 0.3s;
+}
+
+.rotate {
+    animation: spin 0.8s linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

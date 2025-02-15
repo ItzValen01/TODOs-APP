@@ -1,0 +1,29 @@
+.fil-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    gap: 5px;
+}
+
+.filter-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hidde-icon {
+    width: 20%;
+    height: 20%;
+}
+
+.show-icon {
+    width: 20%;
+    height: 20%;
+}

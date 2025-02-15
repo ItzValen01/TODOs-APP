@@ -1,0 +1,13 @@
+.delete {
+    padding-right: 20px;
+    opacity: 0;
+}
+
+.item:hover .delete {
+    opacity: 1;
+}
+
+.delete-icon {
+    width: 50%;
+    height: 50%;
+}

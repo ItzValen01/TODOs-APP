@@ -1,0 +1,28 @@
+.todo-list {  
+    max-height: 564px;
+    height: 564px;
+    overflow-y: auto; 
+    list-style: none;
+
+    padding: 2px;
+}
+
+.todo-list {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.todo-list::-webkit-scrollbar {  
+    display: none;
+}  
+
+.no-todos-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-todos {
+    font-size: 40px;
+}

@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+
+    background: linear-gradient(to right, #9605f7, #cd36f3, #9b50ad);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    margin: 0;
+}
+
+.completed {
+    font-size: 22px;
+    text-align: center;
+}

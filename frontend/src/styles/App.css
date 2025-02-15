@@ -1,0 +1,26 @@
+* {
+    user-select: none;
+}
+
+body {
+    margin: 20px;
+}
+
+.container {  
+    display: flex;  
+    justify-content: space-between;
+}  
+
+.create-sec {  
+    width: 40%;    
+}  
+
+.app-cont {  
+    width: 55%;
+    padding: 20px; 
+}  
+
+.text-filter {
+    text-align: center;
+    cursor: pointer;
+}

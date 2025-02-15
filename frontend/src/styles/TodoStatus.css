@@ -1,0 +1,40 @@
+.status-cont {
+    background: linear-gradient(#9703b4, #d377e6);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.todo-status {
+    background: #ffffff;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.todo-status svg {
+    display: none;
+}
+
+.todo-status-activated {
+    background: green;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-status-activated svg {
+    height: 80%;
+    width: 80%;
+}
+

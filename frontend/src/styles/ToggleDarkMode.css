@@ -1,0 +1,57 @@
+.toggle-container {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-container.dark {
+    background-color: #333;
+}
+
+.toggle-circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.toggle-circle.circle-move {
+    transform: translateX(50px);
+}
+
+.sun-icon,
+.moon-icon {
+    font-size: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.sun-icon {
+    opacity: 1;
+}
+
+.moon-icon {
+    opacity: 0;
+}
+
+.toggle-container.dark .sun-icon {
+    opacity: 0;
+}
+
+.toggle-container.dark .moon-icon {
+    opacity: 1;
+}
